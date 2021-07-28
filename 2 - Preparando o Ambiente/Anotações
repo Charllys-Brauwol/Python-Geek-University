@@ -1,0 +1,30 @@
+1 - O que Vamos Aprender Nessa Seção.
+
+2 - Instalação e Configuração no Windows.
+
+3 - Instalação e Configuração no Linux.
+    - Repositório: 
+        sudo add-apt-repository ppa:deadsnakes/ppa
+    - Atualiza a lista de pacotes: 
+        sudo apt-get update
+    - Instalação: 
+        sudo apt-get install python(versão)
+    - Instalação do pip: 
+        sudo apt install python-pip
+    - IDE: 
+        pycharm
+    - Definir qual versão usar no gerenciador de pacotes:
+        sudo python(versão) get-pip.py
+    - Instalação do pip do python3:
+        sudo pip3 install virtualenv virtualenvwrapper
+    - Configurações do Ambiente
+    - Em cada projeto deve criar um abiente virtual separado, para gerenciar 
+    melhor as bibliotecas e versões do python:
+        mkvirtualenv (nome_projeto) - Cria o Ambiente
+        deactivate - saí do ambiente virtual
+        workon (nome_projeto) - seleciona qual Ambiente quer usar
+    - Instalação alacarte (gerenciador de menus do linux)
+
+4 - Instalação e Configuração no MAC
+
+5 - Recpitulando 
