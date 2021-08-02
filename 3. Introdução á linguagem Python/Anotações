@@ -1,0 +1,46 @@
+1 - O que vamos aprender nessa seção
+
+2 - PEP8
+    A idéia é que possamos escrever códigos Python padronizados
+
+    [1] - Utilize Camel Casa para nomes de classes. Inicial de cada palavra maiúscula.
+            Deixar duas linhas em branco antes da outra classe.
+    ex: class Calculadora:
+            pass
+        
+        
+        class CalculadoraCientifica:
+            pass
+
+    [2] - Funções ou variáveis: minúsculas, separadas por underliner.
+    ex: def soma():
+            pass
+        
+        def soma_dois():
+            pass
+
+        numero = 4
+        numero_impar = 3
+    
+    [3] - Identação, 4 espaços por camada.
+    ex: if "a" in "banana":
+            print("tem")
+
+    [4] - Linhas em branco.
+        2 linhas antes de outra class ou funções
+        1 linha entre cada metódo dentro de uma class
+    
+    [5] - Imports em linhas separadas.
+        ex: import os
+            import sys
+
+    [6] - Espaço em expressões e instruções
+        #Não faça:
+            funcao( algo[ 1 ], { outro: 2} )
+        #Faça:
+            funcao(algo[1], {outro: 2})
+
+    [7] - Termine sempre uma instrução com uma nova linha.
+        import os
+
+        print("assim")
