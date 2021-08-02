@@ -44,3 +44,14 @@
         import os
 
         print("assim")
+
+
+3 - Dir e Help:
+
+    dir - apresenta todos atributos, funções, metódos disponivéis
+          para determinado tipo de dado ou variável.
+
+    help - Apresenta a documentação/como utilizar os atributos e funções
+           ou metódos disponivéis para determinado dado ou variável.
+        
+    
